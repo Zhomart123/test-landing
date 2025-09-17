@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Анна Коль</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+            rel="stylesheet"
+        />
+
+        <style>
+            @keyframes appear {
+                from {
+                    opacity: 0;
+                    scale: 0.5;
+                }
+                to {
+                    opacity: 1;
+                    scale: 1;
+                }
+            }
+
+            .hero-left {
+                animation: appear 1.5s ease-in-out;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo"><a href="#">АННА КОЛЬ</a></div>
+
+            <div class="burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <nav class="nav" id="nav">
+                <a href="#about">Обo мне</a>
+                <a href="#portfolio">Портфолио</a>
+                <a href="#services">Услуги</a>
+                <a href="#reviews">Отзывы</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <main class="hero-left">
+                <img src="./images/pants.png" alt="Одежда" class="side-img" />
+                <p class="desc">
+                    Станьте уверенным в себе и стильным с помощью Анны Коль -
+                    профессионального стилиста с 7-летним опытом работы.
+                </p>
+            </main>
+
+            <main data-aos="fade-down" class="hero-right">
+                <img
+                    src="./images/main-img.png"
+                    alt="Модель"
+                    class="main-img"
+                />
+
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Стиль, который <br />
+                        подчеркивает вашу <br />
+                        индивидуальность
+                    </h1>
+                    <a href="" id="service" class="btn"
+                        >Записаться на консультацию
+                        <img
+                            src="./images/icon-down.svg"
+                            alt="icon-arrow-down"
+                            class="icon-arrow"
+                        />
+                    </a>
+                </div>
+            </main>
+
+            <main class="hero-adaptive">
+                <img
+                    src="./images/responsive-hero.png"
+                    alt="Модель"
+                    class="adap-rero-img"
+                />
+                <div class="hero-text-adaptive">
+                    <h1 class="hero-title" data-aos="fade-up">
+                        Стиль, который <br />
+                        подчеркивает вашу <br />
+                        индивидуальность
+                    </h1>
+                    <p class="desc" data-aos="fade-up">
+                        Станьте уверенным в себе и стильным с помощью Анны Коль
+                        - профессионального стилиста с 7-летним опытом работы.
+                    </p>
+                    <a href="" data-aos="fade-up" id="service" class="btn"
+                        >Записаться на консультацию
+                        <img
+                            src="./images/icon-down.svg"
+                            alt="icon-arrow-down"
+                            class="icon-arrow"
+                        />
+                    </a>
+                </div>
+            </main>
+        </section>
+
+        <section class="about" id="about">
+            <h1 class="about-title" data-aos="fade-down">ОБО МНЕ</h1>
+
+            <main class="about-position">
+                <div class="about-left">
+                    <div data-aos="fade-right" class="about-left-intro">
+                        <img
+                            src="./images/about1.png"
+                            alt="Анна Коль"
+                            class="about-img fst"
+                        />
+                        <p class="intro">
+                            Привет! Меня зовут Анна Коль, и я профессиональный
+                            стилист с 7-летним опытом работы.
+                        </p>
+                    </div>
+
+                    <p class="education" data-aos="fade-up">
+                        *Образование: Высшая <br />
+                        школа стилистики
+                    </p>
+                </div>
+
+                <div class="about-right">
+                    <div class="about-right-lil" data-aos="fade-left">
+                        <p class="about-lil-txts">
+                            Я помогаю людям найти свой уникальный стиль и
+                            выразить свою индивидуальность через одежду. Моя
+                            миссия – сделать так, чтобы каждый мой клиент
+                            чувствовал себя уверенно и комфортно в своем образе.
+                        </p>
+                        <img
+                            src="./images/about2.png"
+                            alt="Анна с цветами"
+                            class="about-img snd"
+                        />
+                    </div>
+                    <div class="about-right-lil" data-aos="fade-right">
+                        <img
+                            src="./images/about3.png"
+                            alt="Стиль"
+                            class="about-img thd"
+                        />
+                        <p class="about-lil-txts">
+                            В своей работе я уделяю внимание деталям, учитываю
+                            ваши личные предпочтения и образ жизни, чтобы
+                            создать гармоничный и функциональный гардероб.
+                        </p>
+                    </div>
+                </div>
+            </main>
+
+            <main class="about-adaptive">
+                <p class="intro" data-aos="fade-right">
+                    Привет! Меня зовут Анна Коль, и я профессиональный стилист с
+                    7-летним опытом работы.
+                </p>
+                <p class="about-lil-txts" data-aos="fade-right">
+                    Я помогаю людям найти свой уникальный стиль и выразить свою
+                    индивидуальность через одежду. Моя миссия – сделать так,
+                    чтобы каждый мой клиент чувствовал себя уверенно и комфортно
+                    в своем образе.
+                </p>
+                <img
+                    src="./images/about2.png"
+                    alt="Анна с цветами"
+                    class="about-img snd"
+                />
+                <p class="about-lil-txts" data-aos="fade-right">
+                    В своей работе я уделяю внимание деталям, учитываю ваши
+                    личные предпочтения и образ жизни, чтобы создать гармоничный
+                    и функциональный гардероб.
+                </p>
+                <p class="education-adap" data-aos="fade-left">
+                    *Образование: Высшая <br />
+                    школа стилистики
+                </p>
+            </main>
+        </section>
+
+        <section class="portfolio-section" id="portfolio">
+            <h1 class="portfolio-header" data-aos="zoom-in-up">ПОРТФОЛИО</h1>
+
+            <div class="portfolio-container">
+                <div class="portfolio-center-left">
+                    <div class="portfolio-left">
+                        <a href="" class="portfolio-back" data-aos="fade-left"
+                            >← НАЗАД</a
+                        >
+                        <p class="portfolio-text" data-aos="fade-left">
+                            Ознакомьтесь с примерами моих работ и убедитесь, что
+                            каждый образ, созданный мною, уникален и отражает
+                            индивидуальность клиента. Здесь вы найдете до и
+                            после стилизации, подборки для различных мероприятий
+                            и стильные капсулы для повседневной жизни.
+                        </p>
+                    </div>
+
+                    <div class="portfolio-center" data-aos="zoom-in-down">
+                        <img
+                            src="./images/portfolio1.png"
+                            alt="Главное фото"
+                            class="portfolio-main-img"
+                        />
+                        <div class="portfolio-caption">
+                            СЪЁМКА ДЛЯ БРЕНДА DISCO,<br />ВДОХНОВЛЕННАЯ 70-80
+                            ГОДАМИ
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="portfolio-right"
+                    data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                >
+                    <a href="" class="portfolio-more"
+                        >ПОСМОТРЕТЬ ДРУГИЕ РАБОТЫ →</a
+                    >
+                    <img
+                        src="./images/portfolio2.png"
+                        alt="Дополнительное фото"
+                        class="portfolio-small-img"
+                    />
+                </div>
+
+                <div class="adaptive-left-portfolio" data-aos="fade-up">
+                    <div class="portfolio-adap-flex">
+                        <div class="adaptive-left-portfolio-text">
+                            <a
+                                href=""
+                                class="portfolio-back-adap"
+                                data-aos="fade-left"
+                                >← НАЗАД
+                            </a>
+                            <p
+                                class="portfolio-text-adap"
+                                data-aos="fade-right"
+                            >
+                                Здесь вы найдете до и после стилизации, подборки
+                                для различных мероприятий и стильные капсулы для
+                                повседневной жизни.
+                            </p>
+                        </div>
+
+                        <img
+                            src="./images/portfolio2.png"
+                            alt="Дополнительное фото"
+                            class="portfolio-small-img-adap"
+                            data-aos="fade-left"
+                        />
+                    </div>
+                    <a href="" data-aos="fade-right" class="portfolio-more-adap"
+                        >ПОСМОТРЕТЬ ДРУГИЕ РАБОТЫ →</a
+                    >
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <h1 class="section-title" data-aos="fade-up-right">УСЛУГИ</h1>
+
+            <main class="services-container">
+                <div class="services-left" data-aos="fade-up-right">
+                    <img
+                        src="./images/serivice.png"
+                        alt="Услуги"
+                        class="services-img"
+                    />
+                    <p class="services-intro">
+                        Я предлагаю комплексные услуги, которые помогут вам
+                        создать идеальный гардероб и выглядеть стильно в любой
+                        ситуации.
+                    </p>
+                </div>
+
+                <div class="services-right" data-aos="fade-down-left">
+                    <div class="service-item">
+                        <div class="service-header">
+                            <h3>
+                                (1) КОНСУЛЬТАЦИЯ
+                                <span class="service-mode">online/offline</span>
+                            </h3>
+                            <span class="service-price">20.000 ₽</span>
+                        </div>
+                        <div class="service-footer">
+                            <p class="service-desc">
+                                Разработка концепции индивидуального стиля с
+                                персональными рекомендациями по фасонам, цветам
+                                и стилизации.
+                            </p>
+                            <a href="" class="service-link">ЗАПИСАТЬСЯ →</a>
+                        </div>
+                    </div>
+
+                    <div class="service-item">
+                        <div class="service-header">
+                            <h3>
+                                (2) РАЗБОР ГАРДЕРОБА
+                                <span class="service-mode">online/offline</span>
+                            </h3>
+                            <span class="service-price">35.000 ₽</span>
+                        </div>
+
+                        <div class="service-footer">
+                            <p class="service-desc">
+                                Личная встреча, разбор гардероба, составление
+                                актуальных образов из текущих вещей, подготовка
+                                шоппинг-листа.
+                            </p>
+                            <a href="" class="service-link">ЗАПИСАТЬСЯ →</a>
+                        </div>
+                    </div>
+
+                    <div class="service-item">
+                        <div class="service-header">
+                            <h3>
+                                (3) ШОППИНГ СОПРОВОЖДЕНИЕ
+                                <span class="service-mode">online/offline</span>
+                            </h3>
+                            <span class="service-price">40.000 ₽</span>
+                        </div>
+
+                        <div class="service-footer">
+                            <p class="service-desc">
+                                Подготовка презентации с подбором комплектов,
+                                видеосессия, сопровождение примерки, отбор
+                                вещей.
+                            </p>
+                            <a href="" class="service-link">ЗАПИСАТЬСЯ →</a>
+                        </div>
+                    </div>
+
+                    <div class="service-item">
+                        <div class="service-header">
+                            <h3>
+                                (4) СОЗДАНИЕ ИНДИВИДУАЛЬНОЙ КАПСУЛЫ
+                                <span class="service-mode">online/offline</span>
+                            </h3>
+                            <span class="service-price">50.000 ₽</span>
+                        </div>
+
+                        <div class="service-footer last">
+                            <p class="service-desc">
+                                Подбор и создание функционального и стильного
+                                гардероба, обеспечение легкости и удобства при
+                                выборе одежды.
+                            </p>
+                            <a href="" class="service-link">ЗАПИСАТЬСЯ →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="services-adap" data-aos="fade-right">
+                    <div class="service-item-adap">
+                        <h3>(1) КОНСУЛЬТАЦИЯ <span>online/offline</span></h3>
+                        <p>
+                            Разработка концепции индивидуального стиля с
+                            персональными рекомендациями по фасонам, цветам и
+                            стилизации
+                        </p>
+                        <div class="service-bottom-adap">
+                            <span class="price-adap">20.000 ₽</span>
+                            <a href="#" class="btn-adap">ЗАПИСАТЬСЯ →</a>
+                        </div>
+                    </div>
+
+                    <div class="service-item-adap">
+                        <h3>
+                            (2) РАЗБОР ГАРДЕРОБА <span>online/offline</span>
+                        </h3>
+                        <p>
+                            Личная встреча, разбор гардероба, составление
+                            актуальных образов из текущих вещей, подготовка
+                            шоппинг-листа
+                        </p>
+                        <div class="service-bottom-adap">
+                            <span class="price-adap">35.000 ₽</span>
+                            <a href="#" class="btn-adap">ЗАПИСАТЬСЯ →</a>
+                        </div>
+                    </div>
+
+                    <div class="service-item-adap">
+                        <h3>
+                            (3) ШОППИНГ СОПРОВОЖДЕНИЕ
+                            <span>online/offline</span>
+                        </h3>
+                        <p>
+                            Подготовка презентации с подбором комплектов,
+                            видеосессия, сопровождение примерки, отбор вещей
+                        </p>
+                        <div class="service-bottom-adap">
+                            <span class="price-adap">40.000 ₽</span>
+                            <a href="#" class="btn-adap">ЗАПИСАТЬСЯ →</a>
+                        </div>
+                    </div>
+
+                    <div class="service-item-adap">
+                        <h3>
+                            (4) СОЗДАНИЕ ИНДИВИДУАЛЬНОЙ КАПСУЛЫ
+                            <span>online/offline</span>
+                        </h3>
+                        <p>
+                            Подбор и создание функционального и стильного
+                            гардероба, обеспечение легкости и удобства при
+                            выборе одежды
+                        </p>
+                        <div class="service-bottom-adap">
+                            <span class="price-adap">50.000 ₽</span>
+                            <a href="#" class="btn-adap">ЗАПИСАТЬСЯ →</a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </section>
+
+        <section class="reviews" id="reviews">
+            <h1 class="reviews-title" data-aos="fade-down">ОТЗЫВЫ</h1>
+
+            <main class="reviews-container">
+                <div class="reviews-controls">
+                    <button class="arrow prev" data-aos="fade-left">
+                        ← НАЗАД
+                    </button>
+                    <button class="arrow next" data-aos="fade-right">
+                        ВПЕРЕД →
+                    </button>
+                </div>
+
+                <div class="reviews-list" data-aos="flip-right">
+                    <div class="review-card active" data-aos="flip-left">
+                        <img
+                            src="./images/reviews1.png"
+                            alt="Мария"
+                            class="review-img"
+                        />
+                        <div class="review-text">
+                            <h3>МАРИЯ, 32 ГОДА</h3>
+                            <p>
+                                "Анна помогла мне полностью изменить мой
+                                гардероб. Теперь я выгляжу стильно и уверенно
+                                каждый день. Рекомендую всем!"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="review-card" data-aos="flip-up">
+                        <img
+                            src="./images/reviews2.png"
+                            alt="Иван"
+                            class="review-img"
+                        />
+                        <div class="review-text">
+                            <h3>ИВАН, 45 ЛЕТ</h3>
+                            <p>
+                                "Профессионализм Анны впечатляет. Шоппинг с ней
+                                – настоящее удовольствие, а результат превзошел
+                                все ожидания."
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="review-card" data-aos="flip-right">
+                        <img
+                            src="./images/reviews3.png"
+                            alt="Екатерина"
+                            class="review-img"
+                        />
+                        <div class="review-text">
+                            <h3>ЕКАТЕРИНА, 29 ЛЕТ</h3>
+                            <p>
+                                "Анна создала для меня идеальную капсулу. Я
+                                экономлю время на утренних сборах и всегда
+                                уверена в своем образе. Огромное спасибо!"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews-controls-adap">
+                    <button class="arrow prev" data-aos="fade-left">
+                        ← НАЗАД
+                    </button>
+                    <button class="arrow next" data-aos="fade-right">
+                        ВПЕРЕД →
+                    </button>
+                </div>
+            </main>
+        </section>
+
+        <footer class="footer" id="contacts">
+            <h1 class="contacts-title" data-aos="zoom-out-down">КОНТАКТЫ</h1>
+            <div class="footer-container">
+                <nav class="footer-nav" data-aos="zoom-in-right">
+                    <ul>
+                        <li><a href="#about">обо мне</a></li>
+                        <li><a href="#portfolio">портфолио</a></li>
+                        <li><a href="#services">услуги</a></li>
+                        <li><a href="#reviews">отзывы</a></li>
+                    </ul>
+                </nav>
+
+                <div class="footer-contacts" data-aos="zoom-in-right">
+                    <ul>
+                        <li><a href="">whatsapp</a></li>
+                        <li><a href="">telegram</a></li>
+                        <li><a href="">instagram*</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-politics" data-aos="zoom-in-left">
+                    <p class="privacy">политика конфиденциальности</p>
+                    <p class="note">
+                        *«Instagram, продукт компании Meta, которая признана
+                        экстремистской организацией в России»
+                    </p>
+                </div>
+
+                <div class="footer-top" data-aos="zoom-in-left">
+                    <a href="#top">наверх</a>
+                </div>
+            </div>
+
+            <div class="footer-brand">АННА КОЛЬ</div>
+        </footer>
+
+        <script src="./srcipt.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
